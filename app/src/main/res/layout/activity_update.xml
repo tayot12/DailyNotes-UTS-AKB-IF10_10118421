@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".activity.Update">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judul"/>
+    <EditText
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/tv_kategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategori"
+        android:layout_below="@+id/judul"/>
+    <EditText
+        android:id="@+id/kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@id/tv_kategori"/>
+
+    <TextView
+        android:id="@+id/tv_isi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Isi Catatan"
+        android:layout_below="@id/kategori"/>
+    <EditText
+        android:id="@+id/isi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@id/tv_isi"
+        android:lines="4"/>
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIMPAN"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/isi"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/color_selected_bottom"/>
+
+
+
+</RelativeLayout>

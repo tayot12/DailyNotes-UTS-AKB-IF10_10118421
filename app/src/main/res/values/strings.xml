@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DailyNotes</string>
+    <string name="action_notes">Notes</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_info">Information</string>
+    <string name="nim">NIM</string>
+    <string name="nama">Nama</string>
+    <string name="kelas">Kelas</string>
+    <string name="email">Email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
